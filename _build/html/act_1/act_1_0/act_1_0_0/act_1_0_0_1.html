@@ -363,7 +363,45 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
-<p>Sociodemographic disparities in sodium-glucose cotransporter-2 inhibitor use among US kidney transplant recipients: A real-world analysis of prescription records</p>
+<p><strong>To the Authors:</strong></p>
+<p>Thank you for your submission, titled “Sociodemographic disparities in sodium-glucose cotransporter-2 inhibitor use among US kidney transplant recipients: A real-world analysis of prescription records.” The manuscript brings attention to an important issue of disparities in medication use, especially in a new and promising class of drugs, among kidney transplant (KTx) recipients.</p>
+<p>However, there are several areas where the manuscript can be strengthened:</p>
+<ol class="arabic simple">
+<li><p><strong>Title:</strong></p>
+<ul class="simple">
+<li><p>The phrase “real-world analysis” raises expectations of a comparative study with clinical trials. However, this study does not include any clinical outcomes, so the title is very misleading. Please either align your approach and methods with existing trials on the subject or consider revising the title.</p></li>
+</ul>
+</li>
+<li><p><strong>Abstract:</strong></p>
+<ul class="simple">
+<li><p>The positioning of SGLT2i within the broader context of CKD should be moved to the discussion section.</p></li>
+<li><p>Clarify the indication for SGLT2i use in KTx. Is it similar to its use in CKD?</p></li>
+<li><p>Address the issue of confounding by indication. How do you mitigate this bias in your study? Your study is about the propensity to prescribe SGLT2i, not the clinical indications for its use.</p></li>
+<li><p>Comment on the growth pattern of SGLT2i use over time. Is it possible to produce a visual that shows this trend?</p></li>
+</ul>
+</li>
+<li><p><strong>Methodology and Results:</strong></p>
+<ul class="simple">
+<li><p>Your paper comes across as a descriptive study. It would benefit from posing and testing hypotheses, especially those related to clinical indications (such as specific causes of kidney failure before transplant or graft failure after transplant).</p></li>
+<li><p>Consider restricting the analysis to KTx patients who meet the CKD definition post-transplant, which might allow for a more precise examination of disparities. But if you believe all KTx patients should be included, please explain why.</p></li>
+</ul>
+</li>
+<li><p><strong>Discussion:</strong></p>
+<ul class="simple">
+<li><p>The focus should be on reducing treatment disparities based on clinical indications, not just sociodemographic traits. Also, risks and benefits of SGLT2i use in KTx should be discussed in greater detail.</p></li>
+</ul>
+</li>
+<li><p><strong>Data Visualization:</strong></p>
+<ul class="simple">
+<li><p>Please consider rounding off values in Table 1 to the nearest whole number for ease of interpretation, except for values that are less than 1.</p></li>
+<li><p>I recommend that Figure 1 use a log scale on the x-axis to enhance interpretability and improve visual symmetry (e.g. labels should be .125, .25, .5, 1, 2, 4, 8). This will also eliminate the white space on the right side of the plot.</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>To My Fellow Editors:</strong></p>
+<p>Krista Lentine has been a frequent collaborator of mine, including on a grant I received from the NIH in 2020. And several of the other authors are past colleagues and mentors. That said, I have no financial or other conflicts of interest to declare, but I wanted to be transparent about my relationship with the authors.</p>
+<p>Their study aims to shed light on an important issue but does so in a manner that is more descriptive than analytical. The paper lacks hypotheses and doesn’t dive deep into clinical indications or outcomes. While the data visualization is well-executed, the study could offer more substantial insights by addressing these gaps.</p>
+<p>I would suggest a major revision before reconsidering the manuscript for publication.</p>
 <Details style="margin-top:111618px; margin-left:111618px;">
    <Summary></Summary>
 </Details>
@@ -378,7 +416,7 @@ document.write(`
 <li><p>And so we’ll always remained very biased about the information we consume and base our decisions on</p></li>
 </ul>
 </Details>
-<Details>
+<Details>``
    <Summary></Summary>
 <ol class="arabic simple">
 <li><p>Nationalists</p>
@@ -1288,14 +1326,14 @@ git2/abikesa_jbc.sh : 11 tokens</p>
 <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
 
 <span class="c1"># Add nodes</span>
-<span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;1.Confounder&#39;</span><span class="p">,</span> <span class="s1">&#39;3.Replication&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Environment&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Mediator&#39;</span><span class="p">,</span> <span class="s1">&#39;6.Outcome&#39;</span><span class="p">,</span> <span class="s1">&#39;2.Heredity&#39;</span><span class="p">]</span>
+<span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;1.KTpropensity&#39;</span><span class="p">,</span> <span class="s1">&#39;3.Replication&#39;</span><span class="p">,</span> <span class="s1">&#39;4.SGLTi&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Mediator&#39;</span><span class="p">,</span> <span class="s1">&#39;6.Outcome&#39;</span><span class="p">,</span> <span class="s1">&#39;2.Heredity&#39;</span><span class="p">]</span>
 <span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
 
 <span class="c1"># Add edges to the graph (arrows in the DAG)</span>
 <span class="n">edges</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">(</span><span class="s1">&#39;1.Confounder&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Environment&#39;</span><span class="p">),</span>
-    <span class="p">(</span><span class="s1">&#39;2.Heredity&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Environment&#39;</span><span class="p">),</span>
-    <span class="p">(</span><span class="s1">&#39;4.Environment&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Mediator&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;1.KTpropensity&#39;</span><span class="p">,</span> <span class="s1">&#39;4.SGLTi&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;2.Heredity&#39;</span><span class="p">,</span> <span class="s1">&#39;4.SGLTi&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;4.SGLTi&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Mediator&#39;</span><span class="p">),</span>
     <span class="p">(</span><span class="s1">&#39;5.Mediator&#39;</span><span class="p">,</span> <span class="s1">&#39;6.Outcome&#39;</span><span class="p">)</span>
 <span class="p">]</span>
 <span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edges</span><span class="p">)</span>
@@ -1305,9 +1343,9 @@ git2/abikesa_jbc.sh : 11 tokens</p>
 
 <span class="c1"># Draw the DAG</span>
 <span class="n">pos</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;1.Confounder&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+    <span class="s1">&#39;1.KTpropensity&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
     <span class="s1">&#39;3.Replication&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
-    <span class="s1">&#39;4.Environment&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">.75</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
+    <span class="s1">&#39;4.SGLTi&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">.75</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
     <span class="s1">&#39;2.Heredity&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
     <span class="s1">&#39;5.Mediator&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">1.35</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
     <span class="s1">&#39;6.Outcome&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
@@ -1323,7 +1361,7 @@ git2/abikesa_jbc.sh : 11 tokens</p>
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../../_images/25e992a093dd1934a413df9b6e25c5c39a4d2afaf26890673a439ed11f5d7911.png" src="../../../_images/25e992a093dd1934a413df9b6e25c5c39a4d2afaf26890673a439ed11f5d7911.png" />
+<img alt="../../../_images/c816349bad0bef19c13393604d483309d06fe5ded24a0fcf524a0a99dc84abb3.png" src="../../../_images/c816349bad0bef19c13393604d483309d06fe5ded24a0fcf524a0a99dc84abb3.png" />
 </div>
 </div>
 </Details>
