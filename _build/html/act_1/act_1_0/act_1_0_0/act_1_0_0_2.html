@@ -174,7 +174,10 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="act_1_0_0_1.html"></a></li>
+
 <li class="toctree-l1 current active"><a class="current reference internal" href="#"></a></li>
+
+
 <li class="toctree-l1"><a class="reference internal" href="act_1_0_0_3.html"></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_1.html"></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../act_1_0_1/act_1_0_1_2.html"></a></li>
@@ -336,7 +339,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -352,6 +357,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"></a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -363,6 +379,13 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
 <h1><a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="id2">
+<h1>2<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h1>
+<p>Assessing cumulative immunosuppressive drug exposure: metrics, outcomes, and implications for transplant patients</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="id3">
+<h1><a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h1>
 <Details style="margin-top:111618px; margin-left:111618px;">
    <Summary></Summary>
 </Details>
@@ -1287,15 +1310,15 @@ git2/abikesa_jbc.sh : 11 tokens</p>
 <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
 
 <span class="c1"># Add nodes</span>
-<span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;1.Confounder&#39;</span><span class="p">,</span> <span class="s1">&#39;3.Replication&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Environment&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Mediator&#39;</span><span class="p">,</span> <span class="s1">&#39;6.Outcome&#39;</span><span class="p">,</span> <span class="s1">&#39;2.Heredity&#39;</span><span class="p">]</span>
+<span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;1.Implications&#39;</span><span class="p">,</span> <span class="s1">&#39;3.Replication&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Rx.dt&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Metrics&#39;</span><span class="p">,</span> <span class="s1">&#39;6.Outcome&#39;</span><span class="p">,</span> <span class="s1">&#39;2.Heredity&#39;</span><span class="p">]</span>
 <span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">nodes</span><span class="p">)</span>
 
 <span class="c1"># Add edges to the graph (arrows in the DAG)</span>
 <span class="n">edges</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">(</span><span class="s1">&#39;1.Confounder&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Environment&#39;</span><span class="p">),</span>
-    <span class="p">(</span><span class="s1">&#39;2.Heredity&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Environment&#39;</span><span class="p">),</span>
-    <span class="p">(</span><span class="s1">&#39;4.Environment&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Mediator&#39;</span><span class="p">),</span>
-    <span class="p">(</span><span class="s1">&#39;5.Mediator&#39;</span><span class="p">,</span> <span class="s1">&#39;6.Outcome&#39;</span><span class="p">)</span>
+    <span class="p">(</span><span class="s1">&#39;1.Implications&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Rx.dt&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;2.Heredity&#39;</span><span class="p">,</span> <span class="s1">&#39;4.Rx.dt&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;4.Rx.dt&#39;</span><span class="p">,</span> <span class="s1">&#39;5.Metrics&#39;</span><span class="p">),</span>
+    <span class="p">(</span><span class="s1">&#39;5.Metrics&#39;</span><span class="p">,</span> <span class="s1">&#39;6.Outcome&#39;</span><span class="p">)</span>
 <span class="p">]</span>
 <span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edges</span><span class="p">)</span>
 
@@ -1304,11 +1327,11 @@ git2/abikesa_jbc.sh : 11 tokens</p>
 
 <span class="c1"># Draw the DAG</span>
 <span class="n">pos</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;1.Confounder&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+    <span class="s1">&#39;1.Implications&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
     <span class="s1">&#39;3.Replication&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
-    <span class="s1">&#39;4.Environment&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">.75</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
+    <span class="s1">&#39;4.Rx.dt&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">.75</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
     <span class="s1">&#39;2.Heredity&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
-    <span class="s1">&#39;5.Mediator&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">1.35</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
+    <span class="s1">&#39;5.Metrics&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mf">1.35</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">),</span>
     <span class="s1">&#39;6.Outcome&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">)</span>
 <span class="p">}</span>
 
@@ -1322,7 +1345,7 @@ git2/abikesa_jbc.sh : 11 tokens</p>
 </div>
 </details>
 <div class="cell_output docutils container">
-<img alt="../../../_images/25e992a093dd1934a413df9b6e25c5c39a4d2afaf26890673a439ed11f5d7911.png" src="../../../_images/25e992a093dd1934a413df9b6e25c5c39a4d2afaf26890673a439ed11f5d7911.png" />
+<img alt="../../../_images/17c9e7a06ebfb5f2c6e95a3dd72c71b5d11b7eeef12fed5da5c434d1817645a5.png" src="../../../_images/17c9e7a06ebfb5f2c6e95a3dd72c71b5d11b7eeef12fed5da5c434d1817645a5.png" />
 </div>
 </div>
 </Details>
@@ -1510,6 +1533,23 @@ The Randomized Controlled Trial is more than a scientific method; for some, it's
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#"></a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">2</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"></a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
