@@ -4,7 +4,7 @@
 (rr-open-prerequisites)=
 ## JAMA
 
-<iframe src="part2/251416_0.pdf" width="100%" height="600px" style="borders:none"></iframe>
+<iframe src="part2/251416_0.pdf" width="200%" height="600px" style="borders:none"></iframe>
 
 - [Main](part2/251416_0.pdf)
 - [Supplement](part2/251416_0_supp.pdf)
