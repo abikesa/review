@@ -6,6 +6,7 @@
 > _(see {ref}`fw-aim2`)_     
 > _(also {ref}`rr-overview`)_    
 > _(education {ref}`rr-overview-barriers`)_
+> _(psychology {ref}`(rr-open-data)=`)_
 
 That's an insightful analogy! The collective unconscious as analogous to latent space suggests that just as `latent space` in machine `learning` models represents compressed, abstracted representations of data, the collective unconscious contains compressed, abstracted representations of shared human experiences and archetypes. This space holds potential patterns and insights that can be "decoded" or "activated" to generate new understandings and applications.
 
@@ -15,7 +16,6 @@ That's an insightful analogy! The collective unconscious as analogous to latent 
                               /
                               3. Artifacts-Rituals 
 
-(rr-open-data)=
 ### Dionysus 1, 2, 3
 ### Sing O Muse 4
 ### Apollo
