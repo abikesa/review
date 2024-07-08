@@ -35,6 +35,7 @@
         <iframe src="https://www.youtube.com/embed/bbqVg_23otg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe src="https://www.youtube.com/embed/pnLGmjcgLQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe src="https://www.youtube.com/embed/SwwbP4kB-4Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/ScStmTbI94E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </body>
 </html>
@@ -54,7 +55,7 @@ Fruitful exchange with Duncan: [{term}`def<Open data>`]. Let's buildl upon it {r
 
 (fw-aim1)=
 ### Biological 5, 6
-- Flow
+- [Flow](https://www.youtube.com/watch?v=ScStmTbI94E), Plugin
 - Growth
 
 also... {cite}`Stuart2018sharing` conducted amongst researchers list the following reasons:
@@ -63,15 +64,15 @@ also... {cite}`Stuart2018sharing` conducted amongst researchers list the followi
 ```{figure} http://webspace.ship.edu/cgboer/layersofunconscious.gif
 ---
 height: 500px
-name: data-privacy
-alt: An image detailing why private data should be used. A person stands next to a well with 'private data' written on it and a padlock around it. It is black and white and blue. The text lists that 'people deserve - dignity, agency, privacy, rights, confirmed consent.'
+name: etc
+alt: etc
 ---
 _Jung was onto something_   
 
-
-                                           
-                          1. Food
-                                 \
-                     2. Teeth -> 4. Enzymes -> 5. Absorption -> Growth
-                                 /
-                                 3. Gut
+```sh              
+             1. Food-Physical
+                             \
+2. Teeth-Natural.Language -> 4. Enzymes-Coded.Language -> 5. Absorption-Plugins -> Growth-Liberation
+                             /
+                             3. Gut-Tokens
+```
