@@ -72,7 +72,7 @@ _Jung was onto something_
 ```sh              
              1. Food-Physical
                              \
-                2. Teeth-Natural.Language -> 4. Enzymes-Coded.Language -> 5. Absorption-Plugins -> Growth-Liberation
+                              2. Teeth-Natural.Language -> 4. Enzymes-Coded.Language -> 5. Absorption-Plugins -> Growth-Liberation
                              /
                              3. Gut-Tokens
 ```
