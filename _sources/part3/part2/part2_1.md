@@ -50,12 +50,12 @@ Fruitful exchange with Duncan: [{term}`def<Open data>`]. Let's buildl upon it {r
 
 (fw)=
 ### Social [4](http://webspace.ship.edu/cgboer/ptinstinct.html)
-- Reservoir
+- Agency
 
 (fw-aim1)=
 ### Biological 5, 6
-- -voir
-- Memoire
+- Flow
+- Growth
 
 also... {cite}`Stuart2018sharing` conducted amongst researchers list the following reasons:
 
@@ -68,6 +68,8 @@ alt: An image detailing why private data should be used. A person stands next to
 ---
 _Jung was onto something_   
 
+
+                                           
                           1. Food
                                  \
                      2. Teeth -> 4. Enzymes -> 5. Absorption -> Growth
