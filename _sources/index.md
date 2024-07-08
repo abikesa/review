@@ -5,12 +5,12 @@
 
 ```{figure} blanche.png
 ---
-width:1px
-height:1px
-name: evolution-openscience
-alt: This image shows the evolving interest of a new researcher in sharing their work using open science practices.
+width: 1px
+height: 1px
+name: Suntori!!
+alt: Sofia Coppola got me here :)
 ---
-_Santori_ 
+_The House of Suntori_ represents the epitome of Japanese whisky craftsmanship, blending tradition and innovation. Founded in 1899, it has become a symbol of meticulous artistry, where each bottle tells a story of heritage and mastery. This figure embodies the essence of Suntori's philosophy, harmonizing nature and spirit in every drop.
 ```
 
 > _(see {ref}`fw-aim2`)_     
