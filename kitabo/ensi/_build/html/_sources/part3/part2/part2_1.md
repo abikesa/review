@@ -44,17 +44,17 @@
 Fruitful exchange with Duncan: [{term}`def<Open data>`]. Let's buildl upon it {ref}`Data Management Plans<rr-rdm-dmp>` in these pages: {ref}`Steps to Share your Data <rr-rdm-sharing-steps>` in the subchapter: {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
 
 (abc-landing)=
-### Personal 1, 2, 3
-- Voir
-- Savoir
-- Pouvoir
+### Biological 1, 2, 3
+- Voir: Aware
+- Savoir: Compute
+- Pouvoir: Bayesian
 
 (fw)=
 ### Social [4](http://webspace.ship.edu/cgboer/ptinstinct.html)
-- Agency
+- Agency: Social
 
 (fw-aim1)=
-### Biological 5, 6
+### Personal 5, 6
 - [Flow](https://www.youtube.com/watch?v=ScStmTbI94E), Plugin
 - Growth
 
