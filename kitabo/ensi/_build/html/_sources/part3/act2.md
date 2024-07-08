@@ -6,8 +6,8 @@
 
 <iframe src="part2/251416_0.pdf" width="200%" height="600px" style="borders:none"></iframe>
 
-- [Main](part2/251416_0.pdf)
-- [Supplement](part2/251416_0_supp.pdf)
+- [Main](https://abikesa.github.io/review/_downloads/53423d5f3609149737e3665deca14d8a/251416_0.pdf)
+- [Supplement](https://abikesa.github.io/review/_downloads/5945374e247dd1c12abd25f41add93fa/251416_0_supp.pdf)
 
 From: josie.sheehy@jamanetwork.org <josie.sheehy@jamanetwork.org>
 Date: Monday, July 8, 2024 at 12:10 PM
