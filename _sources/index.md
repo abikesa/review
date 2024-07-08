@@ -3,6 +3,16 @@
 
 <iframe width="100%" height="600px" src="https://www.youtube.com/embed/-vlHn8n1svk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+```{figure} blanche.png
+---
+width:1px
+height:1px
+name: evolution-openscience
+alt: This image shows the evolving interest of a new researcher in sharing their work using open science practices.
+---
+_Santori_ 
+```
+
 > _(see {ref}`fw-aim2`)_     
 > _(also {ref}`rr-overview`)_    
 > _(education {ref}`rr-overview-barriers`)_               
