@@ -20,9 +20,9 @@ Define the primary outcome as the time-dependent probability of receiving a kidn
 #### 2. **Link sHR to Absolute Risks**
 Translate the subdistribution hazard ratios (sHR) into absolute risks using the following method:
 
-\[ \text{Absolute Risk for Scenario} = 1 - S_0(t)^{\text{sHR of Scenario}} \]
+$\text{Absolute Risk for Scenario} = 1 - S_0(t)^{\text{sHR of Scenario}}$
 
-Where \( S_0(t) \) is the survival function for a typical base-case scenario.
+Where $S_0(t)$ is the survival function for a typical base-case scenario.
 
 #### 3. **Provide Base-case Non-parametric Kaplan-Meier Survival Curve**
 
