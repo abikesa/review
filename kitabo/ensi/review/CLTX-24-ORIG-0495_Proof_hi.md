@@ -1,4 +1,4 @@
-- Associate Editor
+## Associate Editor
 "Regional Disparities in Kidney Transplant Allocation in Brazil" presents a comprehensive and rigorous analysis of kidney transplant allocation disparities. While the academic rigor of the work is commendable, the style of reporting is ambiguous about whether the authors seek to describe the clinical relevance of their findings or whether they seek to make a public health statement and possible intervention.
 
 The meticulous approach is evident in the detailed reporting of outcomes by various risk factors, presented through univariable, adjusted hazard ratios (HR), and adjusted subdistribution hazard ratios (sHR). The aesthetically pleasing cumulative incidence curves further illustrate these findings, albeit they parallel the unvariable HR from the tables making the output redundant.
@@ -9,7 +9,7 @@ On the other hand, there are striking risk factors such as cPRA > 90% with HR=0.
 
 But if the authors seek a public health intervention with a focus on regions, then much of the analytic output is way too distracting. So a more focused narrative would help the reader.
 
-- Deputy Editor
+## Deputy Editor
 
 To enhance the clinical relevance of your study, we recommend focusing on absolute risks for about three select clinical scenarios of the authors' choosing. This approach would be more relatable and practical for average clinicians who need to communicate effectively with their patients. Not the numerous univariable absolute risks that duplicate what is reported in the tables. Even if you provided a base-case cumulative incidence curve for the readers, they'd have trouble applying all the other adjusted sHRs for each clinical scenario they encounter and have to discuss risks with.
 
