@@ -12,10 +12,10 @@ Despite the rigorous analysis, the study ventures into highly academic spheres, 
 
 ### Recommendations for Practical and Clinically Relevant Outcomes
 
-To enhance the clinical relevance of your study, we recommend focusing on absolute risks. This approach would be more relatable and practical for average clinicians who need to communicate effectively with their patients.
+To enhance the clinical relevance of your study, we recommend focusing on absolute risks for about three select clinical senarios of the authors' choosing. This approach would be more relatable and practical for average clinicians who need to communicate effectively with their patients. Not the current run-of-the mill univariable absolute risks that duplicate what is reported in the tables. We'd just need one base-case cumulative incidence curve to derive all the others, knowing the sHRs.
 
 #### 1. **Clarify the Primary Outcome**
-Define the primary outcome as the time-dependent probability of receiving a kidney transplant, rather than merely the odds. Use terms that accurately reflect the time-dependent nature of the sHR.
+Define the primary outcome as the time-dependent probability of receiving a kidney transplant, rather than merely the odds. Use terms that accurately reflect the time-dependent nature of the sHR, as the authors emphasize in their introduction.
 
 #### 2. **Link sHR to Absolute Risks**
 Translate the subdistribution hazard ratios (sHR) into absolute risks using the following method:
@@ -26,20 +26,12 @@ Where \( S_0(t) \) is the survival function for a typical base-case scenario.
 
 #### 3. **Provide Base-case Non-parametric Kaplan-Meier Survival Curve**
 
-Establish a Kaplan-Meier survival curve for a typical base-case scenario using the most frequent clinical characteristics in your cohort:
-
-- **Age**: Between 18 and 60 years
-- **Gender**: Male
-- **Ethnicity**: Caucasian (White)
-- **Region**: Southeast
+Establish a Kaplan-Meier survival curve for a typical base-case scenario using the most frequent clinical characteristics in your cohort plus a few striking, but important less frequent scenarios:
 
 #### 4. **Report Absolute Risks for Select Scenarios**
 
 Provide the absolute risks of deceased donor kidney transplant (DDKT) for the following clinical scenarios:
 
-1. **Young Male, Caucasian, South Region**
-2. **Middle-aged Female, Mixed Race, Southeast Region**
-3. **Elderly Female, Yellow/Indigenous, North Region**
 
 ### Conclusion
 
@@ -47,8 +39,3 @@ By incorporating absolute risk estimates and focusing on clinically relevant out
 
 We look forward to the revised manuscript incorporating these recommendations.
 
-Sincerely,
-
-[Your Name]  
-[Your Title]  
-[Your Institution]
