@@ -8,11 +8,11 @@ The meticulous approach is evident in the detailed reporting of outcomes by vari
 
 ### Critique of Overly Academic Focus
 
-Despite the rigorous analysis, the study ventures into highly academic spheres, particularly with the mediation analyses. Discovering that only 0.005% of effects are mediated by region, despite the region being a focal point of your paper, is unimpressive and diminishes the practical impact of your findings. Several HRs are statistically significant but are close to 1 (e.g. gender and ethnicity), while others such as time on dialysis are difficult to interprete in a clinical setting (e.g. What does HR=0.97 mean for someone who has been on dialysis for 5 years?). On the other hand, there are striking risk factors such as cPRA > 90% with HR=0.29, north region with HR = 2.53. So regardless of mediation analysis, statistical significance of a given risk factor, what counts is the probability of transplant for a given clinical scenario (combining values of the entire range of risk factors into something digestible for a given patient and their care provider who seek to make a decision, rather than a hypothesis about regions). But if the authors seek a public health intervention with a focus on regions, then much of the analytic output is too distracting. So a more focused narrative would help the reader.
+Despite the rigorous analysis, the study ventures into highly academic spheres, particularly with the mediation analyses. Discovering that only 0.005% of effects are mediated by region, despite the region being a focal point of your paper, is unimpressive and diminishes the practical impact of your findings. Several HRs are statistically significant but are close to 1 (e.g. gender and ethnicity), while others such as time on dialysis are difficult to interpret in a clinical setting (e.g. What does HR=0.97 mean for someone who has been on dialysis for 5 years?). On the other hand, there are striking risk factors such as cPRA > 90% with HR=0.29, north region with HR = 2.53. So regardless of mediation analysis, statistical significance of a given risk factor, what counts is the probability of transplant for a given clinical scenario (combining values of the entire range of risk factors into something digestible for a given patient and their care provider who seek to make a decision, rather than a hypothesis about regions). But if the authors seek a public health intervention with a focus on regions, then much of the analytic output is too distracting. So a more focused narrative would help the reader.
 
 ### Recommendations for Practical and Clinically Relevant Outcomes
 
-To enhance the clinical relevance of your study, we recommend focusing on absolute risks for about three select clinical senarios of the authors' choosing. This approach would be more relatable and practical for average clinicians who need to communicate effectively with their patients. Not the current run-of-the mill univariable absolute risks that duplicate what is reported in the tables. We'd just need one base-case cumulative incidence curve to derive all the others, knowing the sHRs.
+To enhance the clinical relevance of your study, we recommend focusing on absolute risks for about three select clinical scenarios of the authors' choosing. This approach would be more relatable and practical for average clinicians who need to communicate effectively with their patients. Not the current run-of-the-mill univariable absolute risks that duplicate what is reported in the tables. We'd just need one base-case cumulative incidence curve to derive all the others, knowing the sHRs.
 
 #### 1. **Clarify the Primary Outcome**
 Define the primary outcome as the time-dependent probability of receiving a kidney transplant, rather than merely the odds. Use terms that accurately reflect the time-dependent nature of the sHR, as the authors emphasize in their introduction.
@@ -20,18 +20,17 @@ Define the primary outcome as the time-dependent probability of receiving a kidn
 #### 2. **Link sHR to Absolute Risks**
 Translate the subdistribution hazard ratios (sHR) into absolute risks using the following method:
 
-$\text{Absolute Risk for Scenario} = 1 - S_0(t)^{\text{sHR of Scenario}}$
+\[ \text{Absolute Risk for Scenario} = 1 - S_0(t)^{\text{sHR of Scenario}} \]
 
-Where $S_0(t)$ is the survival function for a typical base-case scenario.
+Where \( S_0(t) \) is the survival function for a typical base-case scenario.
 
 #### 3. **Provide Base-case Non-parametric Kaplan-Meier Survival Curve**
 
-Establish a Kaplan-Meier survival curve for a typical base-case scenario using the most frequent clinical characteristics in your cohort plus a few striking, but important less frequent scenarios:
+Establish a Kaplan-Meier survival curve for a typical base-case scenario using the most frequent clinical characteristics in your cohort plus a few striking, but important less frequent scenarios.
 
 #### 4. **Report Absolute Risks for Select Scenarios**
 
 Provide the absolute risks of deceased donor kidney transplant (DDKT) for the following clinical scenarios:
-
 
 ### Conclusion
 
@@ -39,3 +38,5 @@ By incorporating absolute risk estimates and focusing on clinically relevant out
 
 We look forward to the revised manuscript incorporating these recommendations.
 
+
+[Your Institution]
