@@ -23,3 +23,15 @@
 - KTFT was associated with a higher likelihood of waitlisting and kidney transplantation, and may help reduce race disparities.
    - The relative risk isn't `meaningful`
 
+
+##
+
+1. Title
+2. Abstract
+3. Introduction
+4. Methods
+5. Results
+6. Discussion
+7. Tables
+8. Figures
+9. Bibliography
