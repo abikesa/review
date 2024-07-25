@@ -26,7 +26,10 @@
 
 ##
 
-1. Title
+1. Title: Increasing equity in kidney transplantation: kidney transplant fast track study
+   - Is kidney transplant fast track associated with a higher likelihood of waitlisting and transplant?
+   - A simple metric to answer this question would be median time-to-composite event for historical cohort vs. fast-track
+   - Competing risks frame-work is unnecessarily complex because it asks academic questions that aren't as relevant to the patient as investigator
 2. Abstract
 3. Introduction
 4. Methods
