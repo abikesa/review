@@ -29,17 +29,23 @@
 1. Title: Increasing equity in kidney transplantation: kidney transplant fast track study
    - Is kidney transplant fast track associated with a higher likelihood of waitlisting and transplant?
    - A simple metric to answer this question would be median time-to-composite event for historical cohort vs. fast-track
-   - Competing risks frame-work is unnecessarily complex because it asks academic questions that aren't as relevant to the patient as investigator
-   - The authors say fast-track patients were 40% "more likely" to be waitlisted amd 21% "more likely" to be transplanted
-      - Are these % based based on comparing sub-hazard ratios or log-hazard ratios
-      - If they are based on sHRs, then they are misleading since sHR of 0.5 and 2 would represent 50% lower and 100% higher
-      - Yet if the reference groups were flipped, the interpretation would be different. The log sHR scale is the correct one
-      - But this is also not very intuitive: for "fast-track" a reader would want to know the reduction in time-to-event
+
 2. Abstract
-3. Introduction
-4. Methods
-5. Results
-6. Discussion
-7. Tables
-8. Figures
-9. Bibliography
+   - Outcome measure is reported as time-to-waitlisting and receipt of transplant
+   - Results are reported as 40% greater chance of being placed on the active waitlist and 21% greater chance of receiving a transplant
+   - This is problematic in two ways.
+      - First, 40% better "chance" and sHR=1.40 do not correlate. It would be more accurate to say 1.4-fold higher sub-hazards 
+         - When you flip the reference groups its clear that there is no symmetry on this scale
+         - If they authors wish to talk of % better chance, then they should do the calculations on the log sub-hazards scale
+      - Second, the hazard ratios say very little about how the "time-to-event" is reduced by the intervention
+         - What was the median survival in the historical cohort? And how was this reduced
+         - In a multivariable setting, this can be accomplished by using clinical scenarios
+         - Alternatively, a matched study design and non-parametric cumulative incidence function could yield the "promised" outcome 
+   - Conclusions: Reduction in disparities in KT is ambiguous if the authors aren't explicit about deceased vs. living donation and what exactly they studied
+4. Introduction
+5. Methods
+6. Results
+7. Discussion
+8. Tables
+9. Figures
+10. Bibliography
