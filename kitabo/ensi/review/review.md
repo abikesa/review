@@ -30,6 +30,11 @@
    - Is kidney transplant fast track associated with a higher likelihood of waitlisting and transplant?
    - A simple metric to answer this question would be median time-to-composite event for historical cohort vs. fast-track
    - Competing risks frame-work is unnecessarily complex because it asks academic questions that aren't as relevant to the patient as investigator
+   - The authors say fast-track patients were 40% "more likely" to be waitlisted amd 21% "more likely" to be transplanted
+      - Are these % based based on comparing sub-hazard ratios or log-hazard ratios
+      - If they are based on sHRs, then they are misleading since sHR of 0.5 and 2 would represent 50% lower and 100% higher
+      - Yet if the reference groups were flipped, the interpretation would be different. The log sHR scale is the correct one
+      - But this is also not very intuitive: for "fast-track" a reader would want to know the reduction in time-to-event
 2. Abstract
 3. Introduction
 4. Methods
