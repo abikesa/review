@@ -53,7 +53,10 @@
    - While the authors state that "to visualize the probability of events, we calculated and plotted adjusted cumulative incidence functions for time from evaluation to waitlisting or transplant", I believe these adjusted graphs should also yield median time-to-event so that a simple interpretation such as "median time was reduced from XX to YY" in a given clinical scenario from the multivariable model. Their sHRs should be used to generate this curves. But a reader doesn't get an intuitive sense of the "fast-track" or "reduction" in time with a sHR=1.40
    - Did the authors assess whether proportionality of hazards assumption was fulfilled by their models. My concern is that disparities are best captured by non-parametric survival curves that make no assumption about proportional hazards. It is entirely possible the two survival curves can criss-cross and yield a HR=1 (yet there are obvious disparities in early times). With non-parametric curves that would be easy to see. With semi-parametric curves, they are "forced" to be proportionately seperated at each time point. Not very compelling in the complex clinical setting under study, where pre-emptive living donation occur rather early after referral and mortality is quite high.
 8. Results
-9. Discussion
-10. Tables
-11. Figures
-12. Bibliography
+   - Reporting sHR 1.40 and 1.20 as 40% and 20% more likely to be transplanted is very misleading since these percent differences aren't performed on a log-scale. A log SHR of 1.40 yields 1.14, which is 14% "more likely" not 40% "more likely". Neither tell us how much "quicker" the fast-track leads to the outcome
+   - You promised to report the probabilities of waitlisting and transplantation and these are not delivered. Those come from the "adjusted" cumulative incidence functions. Even better, a standard probability "parameter" is the median survival time. Its very simple and intuitive and anyone can understand what "fast-track" is if, say, the median survival time is reduced from 3.5 years to 2.5 years. We can visualize it in a figure and appreciate its clinical significance, as contrasted with a sHRS of 1.40
+     
+10. Discussion
+11. Tables
+12. Figures
+13. Bibliography
