@@ -63,6 +63,8 @@
     <script src="../../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'review/cltx/cltx';</script>
     <script src="../../_static/script.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
@@ -372,6 +374,14 @@ document.write(`
 </li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">2</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chatgpt-solving-complex-kidney-transplant-cases-a-comparative-study-with-human-respondents">ChatGPT Solving Complex Kidney Transplant Cases: A Comparative Study with Human Respondents</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Editors</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Authors</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -407,6 +417,39 @@ document.write(`
 <p>Furthermore, traditionally used methods such as logistic regression should first be explored so that we  have a benchmark against which to appraise unfamiliar and opaque machine-learning approaches.</p>
 <p>Table 3 presents another table that isn’t suitable for a clinical audience, with columns for chi-square statistics, across too many groups for the mind to grapple with. Critically, the p-values emerging from these multiple comparisons are not as meaningful as the authors let off.</p>
 <p>The supplemental material is completely inaccessible to the clinician.</p>
+</section>
+</section>
+</section>
+<section id="id3">
+<h2>2<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
+<section id="chatgpt-solving-complex-kidney-transplant-cases-a-comparative-study-with-human-respondents">
+<h3>ChatGPT Solving Complex Kidney Transplant Cases: A Comparative Study with Human Respondents<a class="headerlink" href="#chatgpt-solving-complex-kidney-transplant-cases-a-comparative-study-with-human-respondents" title="Permalink to this heading">#</a></h3>
+<section id="id4">
+<h4>Editors<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h4>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>               1. f(t)
+                     \
+          2. S(t) -&gt; 4. y:h&#39;(t)=0;t(X&#39;X).X&#39;Y -&gt; 5. b -&gt; 6. SV&#39;
+                     /
+                     3. h(t)
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(t)\)</span> Each mode has its own data properties and pdf</p></li>
+<li><p><span class="math notranslate nohighlight">\(S(t)\)</span> Cumulative inputs (i.e., greater data, more modes) is where the edge is</p></li>
+<li><p><span class="math notranslate nohighlight">\(ht(t)\)</span> Quicker processesing of a lot of information</p></li>
+<li><p><span class="math notranslate nohighlight">\((X'X)^T \cdot X'Y\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\beta\)</span> Diagnosis as a single word is a tidy token that GPTs were trained to predict</p></li>
+<li><p><span class="math notranslate nohighlight">\(SV'\)</span> But “attention” to the context of the key words yields an <code class="docutils literal notranslate"><span class="pre">unexamined</span></code> edge <span id="id5"><sup><a class="reference internal" href="../../act3/part3/part3_3.html#id5" title="Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Proceedings of the 31st International Conference on Neural Information Processing Systems, volume 30, 6000–6010. Curran Associates Inc., 2017.">35</a></sup></span></p></li>
+</ul>
+<p>This is a very simple and clearly written analysis of a topical issue. I think its worth publishing, after the authors address the concerns the reviewer raised, as well as the issues I’ve presented.</p>
+</section>
+<section id="id6">
+<h4>Authors<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h4>
+<p>The authors assessed the accuracy of different versions of ChatGPT (3.5, 4, and 4V) in responding to kidney transplant cases from historical quizzes of the American Society of Nephrology (2015, 2014, 2013). There were two cases for each year, a case summary, lab results, an image (e.g. head CT), and multiple choice answers: for instance, which of the following is the most likely cause of her chest pain and CXR findings? [A] Lung cancer, [B] Recurrent breast cancer, [C] Pneumonia, [D] Sarcoidosis.</p>
+<p>Performance was benchmarked to nephrology fellows, transplant program directors, and an audience. Figure 1 offers a very powerful &amp; accessible summary of the findings. GPT-4V almost matched the transplant program directors overall performance across the three years studied.</p>
+<p>But visual inspection reveals heterogeneity in the hierarchies across the years (e.g. the fellows outperformed GPT-4V in the 2013 quiz but fell short in the other years). Are the differences in performance witnessed over just a handful of quesionnaire items statistically significant? Are they clinically meaningful?</p>
+<p>Can you comment on multimodal chatbots that are widely available right now. GPT-4o, for instance, is more recent than GPT-4V and can process not only images, but also audio, video, uploaded .PDF or .CSV files, extending utility beyond text and static images. Much more detailed clinical detail can be processed by these newer versions of chatbots by “reading” the entire patient record on file in a matter of seconds or minutes, including all available images, and perhaps even audio records from the physicians. Isn’t this study design under-selling the potential edge these chatbots may actually have? And if these approaches are limited by HIPAA, then can the authors address these issues in the revised discussion?</p>
+<p>Second, to avoid seeming biased towards one-specific industry product, can the authors comment on other chatbots on the market including <a class="reference external" href="http://claude.ai">claude.ai</a>, <a class="reference external" href="http://meta.ai">meta.ai</a>, <a class="reference external" href="http://perplexity.ai">perplexity.ai</a>, gemini, etc? How would the authors advise a clinician to approach these options? ChatGPT has been an industry leader, but this is a very dynamic and fast-growing area of competition and it would be helpful to place ChatGPT in the broader context</p>
 </section>
 </section>
 </section>
@@ -462,6 +505,14 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#latent-profiles-of-deceased-organ-donation-registrants-and-non-registrants-in-the-united-states">Latent profiles of deceased organ donation registrants and non-registrants in the United States</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#editors">Editors</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#authors">Authors</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">2</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chatgpt-solving-complex-kidney-transplant-cases-a-comparative-study-with-human-respondents">ChatGPT Solving Complex Kidney Transplant Cases: A Comparative Study with Human Respondents</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Editors</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Authors</a></li>
 </ul>
 </li>
 </ul>
