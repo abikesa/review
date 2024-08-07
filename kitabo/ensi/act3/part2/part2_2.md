@@ -47,7 +47,7 @@ Drawing parallels between the structure of the regression model and the hierarch
 # `ii-V-i`
 
 <audio controls style="width: 100%;">
-  <source src="ii-v-I.mp3" type="audio/mp3">
+  <source src="../../media/ii-v-I.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
 
