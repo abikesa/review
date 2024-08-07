@@ -16,7 +16,7 @@ width: 1
 name: data-privacy
 alt: An
 ---
-_Henry V_. The opening sequence after the prologue of Kenny Branagh's version inspired this layer of my neural network, which had been trained on an earlier layer titled "Uganda"
+_Henry V_. The opening sequence after the prologue of Kenny Branagh's version `activated` this layer of my neural network, which had been trained on an earlier layer titled "Uganda"
 ```
                                               
 ### Dionysus 1, 2, 3
