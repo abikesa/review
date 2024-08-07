@@ -365,7 +365,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#latent-profiles-of-deceased-organ-donation-registrants-and-non-registrants-in-the-united-states">Latent profiles of deceased organ donation registrants and non-registrants in the United States</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#latent-profiles-of-deceased-organ-donation-registrants-and-non-registrants-in-the-united-states">Latent profiles of deceased organ donation registrants and non-registrants in the United States</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#editors">Editors</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#authors">Authors</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -385,28 +389,25 @@ document.write(`
 <h2>1<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
 <section id="latent-profiles-of-deceased-organ-donation-registrants-and-non-registrants-in-the-united-states">
 <h3>Latent profiles of deceased organ donation registrants and non-registrants in the United States<a class="headerlink" href="#latent-profiles-of-deceased-organ-donation-registrants-and-non-registrants-in-the-united-states" title="Permalink to this heading">#</a></h3>
-<ul class="simple">
-<li><p>Survey of 11,083 persons, place, time</p></li>
-<li><p>Latent profile analysis (unsupervised machine learning) to identify factors associated with registration</p></li>
-<li><p>Yielded three profiles</p>
-<ul>
-<li><p>Meaningful differences across these three included:</p>
-<ul>
-<li><p>Access to healthcare services</p></li>
-<li><p>Satisfaction with those services</p></li>
-<li><p>Mental health</p></li>
-<li><p>Age (not as a standalone variable)</p>
-<ul>
-<li><p>Healthy and young had lowest registration rates</p></li>
-<li><p>Cited low priority and distrust of the process of donation</p></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Transparency</span></code>, or lack thereof, of these methods is a potential issue`</p></li>
-</ul>
+<section id="editors">
+<h4>Editors<a class="headerlink" href="#editors" title="Permalink to this heading">#</a></h4>
+<p>Machine learning has a guaranteed place in the future of clinical medicine.</p>
+<p>But for now, these authors have failed to offer a compelling place for it in this specific instance.</p>
+<p>A simple logistic regression of all the factors they studied on “registration for organ donation” would help ground their work using methods that are familiar and transparent us. The predictive accuracy of the traditional and transparent vs. “unsupervised” and opaque would be the simplest way to motivate their innovation.</p>
+<p>That said, the paper is NOT written in the style a clinical audience expects and deserves. Nothing short of complete redesign of this effort would make this paper appropriate for the journal.</p>
+</section>
+<section id="authors">
+<h4>Authors<a class="headerlink" href="#authors" title="Permalink to this heading">#</a></h4>
+<p>“Latent profiles of deceased organ donation registrants and non-registrations in the United States” is an innovative paper that seeks to identify factors associated with registration for deceased organ donation.</p>
+<p>It uses unsupervised machine learning to uncover three profiles of persons from National Behavioral Health Survey (N=11,083) that have some “meaningful” differences linked to registration as a donor. The differences identified include  access to healthcare services, satisfaction with those services, mental health, and age (but not as a standalone variable).</p>
+<p>But several issues make this effort unlikely to benefit readers of the journal. First, the methods are not familiar to the audience and lack the transparency the allows one to be critical.</p>
+<p>Second, the style of reporting isn’t for a clinical audience that is familiar with a traditional Table 1 with descriptive characteristics using familiar metrics like median (Interquartile range) or mean (SD) for continuous variables.</p>
+<p>Figure 1 includes metrics that are not familiar or clinically useful (e.g. standard deviations from grand means for healthcare access).</p>
+<p>Table 2. Presents the output (i.e., the latent profiles) and describes them in terms of gender, race, state incentive for living donation, possession of drivers license, and medical insurance status. Without a meaningful conceptualization of the organ donation process (deceased donation vs. living donation), this model will be problematic to readers.</p>
+<p>Furthermore, traditionally used methods such as logistic regression should first be explored so that we  have a benchmark against which to appraise unfamiliar and opaque machine-learning approaches.</p>
+<p>Table 3 presents another table that isn’t suitable for a clinical audience, with columns for chi-square statistics, across too many groups for the mind to grapple with. Critically, the p-values emerging from these multiple comparisons are not as meaningful as the authors let off.</p>
+<p>The supplemental material is completely inaccessible to the clinician.</p>
+</section>
 </section>
 </section>
 </section>
@@ -458,7 +459,11 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">1</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#latent-profiles-of-deceased-organ-donation-registrants-and-non-registrants-in-the-united-states">Latent profiles of deceased organ donation registrants and non-registrants in the United States</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#latent-profiles-of-deceased-organ-donation-registrants-and-non-registrants-in-the-united-states">Latent profiles of deceased organ donation registrants and non-registrants in the United States</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#editors">Editors</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#authors">Authors</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
