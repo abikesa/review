@@ -31,6 +31,7 @@ Table 3 presents another table that isn't suitable for a clinical audience, with
 
 The supplemental material is completely inaccessible to the clinician. 
 
+(chatgpt)=
 ## 2
 ### ChatGPT Solving Complex Kidney Transplant Cases: A Comparative Study with Human Respondents
 #### Editors
