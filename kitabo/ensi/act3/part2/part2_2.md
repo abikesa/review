@@ -54,12 +54,14 @@ Drawing parallels between the structure of the regression model and the hierarch
   Your browser does not support the audio element.
 </audio>
 
-```
-
 [Tamar](https://www.youtube.com/watch?v=kQCCftEPl4M)        
 [Dawkins](https://www.youtube.com/watch?v=qCfarOP_-dA)         
 [McClurkin](https://www.youtube.com/watch?v=ud-YSDFTboQ)         
-[Hawthorne](https://www.youtube.com/watch?v=YDFl9goQD_c)        
+[Hawthorne](https://www.youtube.com/watch?v=YDFl9goQD_c) 
+
+```
+
+       
 
 ![](https://github.com/abikesa/url/raw/main/frontier.png)
 
