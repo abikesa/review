@@ -59,6 +59,17 @@ _Sensory_. The dream sequence was partly stimulated by the Husband, doing his du
                         3. Gaia -> Uranus
 
 
+```{margin}
+
+<Details>
+   <Summary></Summary>
+
+- {ref}`jama`
+- {ref}`cltx`
+
+</Details>
+
+```
 
 ```{figure} ../figures/blanche.png
 ---
