@@ -4,6 +4,9 @@
 echo "Enter your commit message:"
 read commit_message
 
+# Wasn't necessarily until 12/2024 upgrade
+source ../../../myenv/bin/activate
+
 # Clean the Jupyter Book
 jb clean .
 

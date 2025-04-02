@@ -5,50 +5,52 @@ chapters:
   # Sing O Muse!
   - file: act1/part1
     sections:
-      - title: Mortality
+      - title: Life
         file: act1/chapter1
-      - title: ESRD
+      - title: Ecosystem
         file: act1/chapter2
-      - title: Frailty
+      - title: Resilience
         file: act1/chapter3
         
   # Sing O Muse!
   - file: act2/part2
     sections:
-      - title: Hospitalization
+      - title: Prometheus
         file: act2/chapter1
-      - title: Length of Stay
+      - title: Duality
         file: act2/chapter2
-      - title: Outcomes
+      - title: Apollo-Dionysus
         file: act2/chapter3
 
   # Apollo
   - file: act3/part3
     sections:
-      - title: WebApp
+      - title: 'Weaponized 🌊'
         file: act3/act1
         sections:
-          - title: Browser
+          - title: Transvaluation
             file: act3/part1/part1_1
-          - title: User
+          - title: Revolution
             file: act3/part1/part1_2
-          - title: Annotation
+          - title: 'Veiled Resentment'
             file: act3/part1/part1_3
-      - title: Deployment
+      - title: 'Tokenized ⚓️'
         file: act3/act2
         sections:
-          - title: GitHub
+          - title: Freedom-in-Fetters
             file: act3/part2/part2_1
-          - title: Collaborative
+          - title: Dancing-in-Chains
             file: act3/part2/part2_2
-          - title: Open-Source
+          - title: 'Born-to-Etiquette ☔️'
             file: act3/part2/part2_3
-      - title: Iteration
+      - title: 'Monopolized 🧭'
         file: act3/act3
         sections:
-          - title: Latest Research
+          - title: Traditional
             file: act3/part3/part3_1
-          - title: Bayesian Updates
+          - title: Normative
             file: act3/part3/part3_2
-          - title: Missingness and A Priori
+          - title: Stable
             file: act3/part3/part3_3
+
+  - file: bibliography
